@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Location: index.php');
         exit;
     }
-    $erreur = 'Login ou mot de passe incorrect.';
+    $erreur = 'Login ou mot de passe incorrect!';
 }
 
 require 'includes/header.php';
